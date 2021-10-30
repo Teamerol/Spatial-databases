@@ -7,7 +7,7 @@ from sqlalchemy.sql.elements import and_
 
 #Подключение к базе данных
 # !!! Обязательно заменить password на пароль пользователя postgres !!!
-parameters = "postgresql://postgres:password99@localhost/postgres"
+parameters = "postgresql://postgres:password@localhost/postgres"
 connection = create_engine(parameters)
 
 #Создание сессии
